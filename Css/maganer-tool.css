@@ -1,0 +1,65 @@
+.weddingbody{
+    font-family: cursive;
+
+}
+img{
+    transition: 0.5s;
+}
+
+/* header */
+.header{
+    background-color: #bbbd98;
+}
+.header-container{
+    max-width: 80%;
+    
+}
+.header-list{
+    justify-content: center;
+}
+.header-list li{
+    padding: 0 20px;
+}
+
+.header-list .list-group .list-nav .nav-text:hover{
+    color: #fd5d5d;
+}
+.btn-register{
+    background-color: #bbbd98;
+    color: #fd5d5d;
+    font-size: 20px;
+    border: none;
+}
+.btn-register:hover{
+    background-color: #fd5d5d;
+}
+.modal-header .fs-5{
+    color: #fd5d5d;
+}
+#navbarNavDarkDropdown{
+    justify-content: end;
+}
+#navbarNavDarkDropdown button{
+    background-color: #fd5d5d;
+    color: rgba(0, 0, 0, 0.466);
+    border: none;
+}
+/* manager tool */
+.container{
+    padding: 20px 0;
+}
+.head_text{
+    padding-top: 80px;
+}
+.container h1{
+    
+    color: #fd5d5d;
+}
+.container button{
+    background-color: #bbbd98;
+    border: none;
+    color: black;
+}
+.container button:hover{
+    background-color: #fd5d5d;
+}

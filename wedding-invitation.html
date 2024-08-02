@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Css/wedding.css">
+  <style>
+   
+  </style>
+</head>
+<body class="weddingbody">
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary header w-100" id="weddingHead">
+    <div class="container-fluid header-container">
+      <a class="navbar-brand container-icon" href="#" style="color: #fd5d5d;"><h1>Mr & Mrs</h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse header-list" id="navbarNav">
+        <ul class="navbar-nav list-group">
+          <li class="nav-item list-nav">
+            <a class="nav-link active nav-text" aria-current="page" href="#carouselId" style="color: #fd5d5d;">HOME</a>
+          </li>
+          <li class="nav-item list-nav">
+            <a class="nav-link nav-text" href="#weddingAbout">ABOUT US</a>
+          </li>
+          <li class="nav-item list-nav">
+            <a class="nav-link nav-text" href="#weddingStory">STORY</a>
+          </li>
+          <li class="nav-item list-nav">
+            <a class="nav-link nav-text" href="#weddingGallery">GALLERY</a>
+          </li>
+          <li class="nav-item list-nav">
+            <a class="nav-link nav-text" href="#weddingTimeLine">TIME LINE</a>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a id="homepage" class="dropdown-item" href="#">Home Page</a></li>
+              <li><a id="managertool" class="dropdown-item" href="#">Manager Tool</a></li>
+              <li><a class="dropdown-item" href="#">Log Out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header end -->
+    <!-- Carousel Start -->
+    <div class="container-fluid carousel-header px-0">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="./images/wedding 7.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING MARRIED</h4>
+                            </div>
+                            <h1 class="display-1 text-capitalize text-white mb-3">Evelyn <i class="fa fa-heart text-primary"></i> Anthony</h1>
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">June 28 2024</h4>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#formWishes">Attend Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/wedding 9.jpg" class="img-fluid" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING MARRIED</h4>
+                            </div>
+                            <h1 class="display-1 text-capitalize text-white mb-3">Evelyn <i class="fa fa-heart text-primary"></i> Anthony</h1>
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">June 28 2024</h4>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#formWishes">Attend Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/wedding 4.jpg" class="img-fluid bg-secondary" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING MARRIED</h4>
+                            </div>
+                            <h1 class="display-1 text-capitalize text-white mb-3">Evelyn <i class="fa fa-heart text-primary"></i> Anthony</h1>
+                            <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
+                                <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">June 28 2024</h4>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+     <!-- Hello! Start -->
+     <div class="container-fluid position-relative py-5">
+        <div class="position-absolute" style="top: -35px; right: 0;">
+            <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="position-absolute" style="top: -10px; left: 0; transform: rotate(150deg);">
+            <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="container position-relative py-5">
+            <div class="mx-auto text-center mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800;">
+                <h1 class="text-primary display-1">Hello!</h1>
+                <h4 class="text-dark mb-0">We invite you to celebrate our wedding</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div class="text-end my-auto pe-4">
+                                    <h3 class="text-primary mb-3">Evelyn</h3>
+                                    <p class="text-dark mb-0" style="line-height: 30px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    </p>
+                                </div>
+                                <img src="./images/bride.jpg" class="img-fluid img-border" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <i class="fa fa-heart fa-5x text-primary"></i>
+                           </div>
+                        </div>
+                        <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <img src="./images/Groom.jpg" class="img-fluid img-border" alt="">
+                                <div class="my-auto ps-4">
+                                    <h3 class="text-primary mb-3">Anthony</h3>
+                                    <p class="text-dark mb-0" style="line-height: 30px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hello! End -->
+     <!-- About Start -->
+     <div class="container-fluid position-relative overflow-hidden py-5 about-us" id="weddingAbout">
+        <img src="img/bg-flower.png" class="img-fluid position-absolute top-0" style="right: -15px; transform: rotate(270deg); opacity: 0.5;" alt="">
+        <img src="img/bg-flower.png" class="img-fluid position-absolute" style="bottom: 10px; left: -15px; transform: rotate(90deg); opacity: 0.5;" alt="">
+        <div class="container py-5 position-relative">
+            <div class="row g-5 align-items-center">
+                <div class="col-xl-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="border-white bg-primary" style="border-style: double;">
+                        <img src="./images/gallery-2.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="wow fadeIn" data-wow-delay="0.3s">
+                        <h5 class="text-uppercase text-primary fw-bold mb-4 text-dark">About Us</h5>
+                        <h1 class="display-5 text-white mb-4">We Make Your Every Moment</h1>
+                        <p class="text-dark fs-5 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                        <div class="tab-class p-4">
+                            <ul class="nav d-flex mb-4">
+                                <li class="nav-item">
+                                    <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill" href="#tab-1">
+                                        <span class="text-dark" style="width: 150px;">Bride Info</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="d-flex py-2 mx-3 text-center bg-white" data-bs-toggle="pill" href="#tab-2">
+                                        <span class="text-dark" style="width: 150px;">Groom info</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="tab-1" class="tab-pane fade show p-0 active">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="me-4">
+                                                    <img src="./images/bride.jpg" class="img-fluid w-100 img-border" alt="">
+                                                </div>
+                                                <div class="text-start my-auto">
+                                                    <h5 class="text-white fw-bold">Evelyn</h5>
+                                                    <p class="text-dark mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                    </p>
+                                                    <div class="d-flex">
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-facebook-f"></i></a>
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-twitter"></i></a>
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-instagram"></i></a>
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-0"><i class="fab fa-linkedin-in"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab-pane fade show p-0">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex">
+                                                <div class="me-4">
+                                                    <img src="./images/Groom.jpg" class="img-fluid w-100 img-border" alt="">
+                                                </div>
+                                                <div class="text-start my-auto">
+                                                    <h5 class="text-white fw-bold">Anthony</h5>
+                                                    <p class="text-dark mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                    </p>
+                                                    <div class="d-flex">
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-facebook-f"></i></a>
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-twitter"></i></a>
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-instagram"></i></a>
+                                                        <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-0"><i class="fab fa-linkedin-in"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-5">
+                            <div class="d-flex align-items-center justify-content-center flex-shrink-0">
+                                <a href="#" class="btn btn-primary btn-primary-outline-0 py-3 px-4">Read More</a>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="d-inline-block ms-4 me-3">
+                                    <i class="fa fa-phone fa-2x text-success border border-2 border-white p-2"></i>
+                                </div>
+                                <div class="d-flex flex-column flex-nowrap">
+                                    <h5 class="text-dark fw-bold mb-2">Call Us Anytime</h5>
+                                    <h4 class="text-white mb-0">+123 456 7890</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+     <!-- Story Start -->
+     <div class="container-fluid story position-relative py-5 story-box" id="weddingStory">
+        <div class="position-absolute" style="top: -35px; right: 0;">
+            <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="position-absolute" style="top: -15px; left: 0; transform: rotate(150deg);">
+            <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="container position-relative py-5">
+            <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <h5 class="text-uppercase text-dark fw-bold mb-4">Story</h5>
+                <h1 class="display-4 text-white">Our Love Story</h1>
+            </div>
+            <div class="story-timeline">
+                <div class="row wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-md-6 text-end border-0 border-top border-end border-secondary p-4">
+                        <div class="d-inline-flex align-items-center h-100">
+                            <img src="./images/story-2.jpg" class="img-fluid w-100 img-border" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 col-content">
+                            <h4 class="mb-2 text-white">First Meet</h4>
+                            <p class="text-uppercase text-white mb-2" style="letter-spacing: 3px;">01 Jan 2050</p>
+                            <p class="m-0 fs-5">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-column-reverse flex-md-row wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 col-content">
+                            <h4 class="text-white mb-2">First Date</h4>
+                            <p class="text-uppercase text-white mb-2" style="letter-spacing: 3px;">01 Jan 2050</p>
+                            <p class="m-0 fs-5">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-start border-top border-secondary p-4">
+                        <div class="d-inline-flex align-items-center h-100">
+                            <img src="./images/story-3.jpg" class="img-fluid w-100 img-border" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-md-6 text-end border-end border-top border-secondary p-4 ps-0">
+                        <div class="d-inline-flex align-items-center h-100">
+                            <img src="./images/story-4.jpg" class="img-fluid w-100 img-border" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 col-content">
+                            <h4 class="text-white mb-2">Proposal</h4>
+                            <p class="text-uppercase text-white mb-2" style="letter-spacing: 3px;">01 Jan 2050</p>
+                            <p class="m-0 fs-5">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row flex-column-reverse flex-md-row wow fadeInUp " data-wow-delay="0.5s">
+                    <div class="col-md-6 text-end border border-start-0 border-secondary p-4 ps-0">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 col-content">
+                            <h4 class="text-white mb-2">Enagagement</h4>
+                            <p class="text-uppercase text-white mb-2" style="letter-spacing: 3px;">01 Jan 2050</p>
+                            <p class="m-0 fs-5">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 border border-end-0 border-secondary p-4">
+                        <div class="d-inline-flex align-items-center h-100">
+                            <img src="./images/story-1.jpg" class="img-fluid w-100 img-border" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Story End -->
+  <!-- CARD -->
+  <div class="card-content" id="weddingGallery">
+    <h1>Wedding Gallery</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4 card-group">
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img">
+      <div class="card h-100 image">
+        <img src="./images/gallery-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+    <div class="col card-img" >
+      <div class="card h-100 image">
+        <img src="./images/gallery-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body card-infor">
+          <h5 class="card-title">Wedding On The Beach</h5>
+          <p class="card-text">July 15, 2024</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="buttoncenter">
+    <button type="button" class="btn btn-primary btn-lg btn-img">Wiew More</button>
+  </div>
+  <!-- card end -->
+
+  <!-- Time line -->
+  <div class="wd-timeline" id="weddingTimeLine">
+    <div class="timeline-head">
+      <h1>Wedding Planing Timeline</h1>
+    </div>
+    <div class="container text-center timeline-content">
+      <div class="row row-cols-4 timeline-ul">
+        <div class="col timeline-li">
+          <i class="fas fa-dungeon text-primary fa-3x timeline_icon"></i>
+          <p><b>18:00PM</b></p>
+          <h3>Reception</h3>
+          <p>The family welcomes guests</p>
+        </div>
+        <div class="col timeline-li">
+          <i class="fas fa-ring text-primary fa-3x timeline_icon"></i>
+          <p><b>18:50PM - 19:00PM</b></p>
+          <h3>Ceremony</h3>
+          <p>The bride and groom walk down the aisle</p>
+        </div>
+        <div class="col timeline-li">
+          <i class="fas fa-photo-video text-primary fa-3x timeline_icon"></i>
+          <p><b>19:00PM - 19:30PM</b></p>
+          <h3>Photoshoot</h3>
+          <p>The bride and groom taking pictures</p>
+        </div>
+        <div class="col timeline-li">
+          <i class="fas fa-menorah text-primary fa-3x timeline_icon"></i>
+          <p><b>19:30PM</b></p>
+          <h3>Dinner</h3>
+          <p>The dinner party begins</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <div class="form_body" id="formWishes">
+    <div class="form_guest">
+      <div class="form_head">
+        <h1>Guest's wishes</h1>
+      </div>
+      <div class="form_content">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name">
+            <div class="error-message"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+            <input type="number" class="form-control"  id="phone" aria-describedby="emailHelp" placeholder="Enter your phone number">
+            <div class="error-message"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Gender</label>
+            <select id="gender" class="form-select"  aria-label="Default select example">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="No Public">No Public</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            <div class="error-message"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Will you be attending?</label>
+            <select id="attend" class="form-select"  aria-label="Default select example">
+              <option value="Yes">Yes I will attend</option>
+              <option value="No">No I cannot attend</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control"  id="message" rows="3" placeholder="Enter your Message"></textarea>
+            <div class="error-message"></div>
+          </div>
+          <div class="btn_form">
+            <button onclick="addNew()" type="button" class="btn btn-primary btn-lg btn_register" id="btn-send">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- toast -->
+  <div class="toast-container position-fixed top-0 end-0 p-3" >
+      <div id="successToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+              <strong class="me-auto">Notification</strong>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+              Your wishes have been sent successfully.
+          </div>
+      </div>
+  </div>
+  <!-- footer -->
+  <div class="wedding_footer">
+    <div class="footer_content">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col">
+            <h1>Follow Us</h1>
+            <a href="...">FaceBook</a><br>
+            <a href="...">Instagram</a><br>
+            <a href="...">Twitter</a>
+            <h1>Contact Us</h1>
+            <i class="fa fa-phone"></i><a href="...">(+84)6789 6789</a><br>
+            <i class="fa fa-envelope"></i><a href="...">info@example.com</a>
+          </div>
+          
+          <div class="col">
+            <div class="googlemap">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1385.614885806928!2d106.69049403963831!3d10.802830736882738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528c4e037b02d%3A0x27ff481ab0bd888f!2zVHJ1bmcgdMOibSBo4buZaSBuZ2jhu4sgdGnhu4djIGPGsOG7m2kgQXNpYW5hIFBsYXphIChCw6xuaCBUaOG6oW5oKQ!5e0!3m2!1svi!2s!4v1722150811937!5m2!1svi!2s" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- button top -->
+ <div class="btn-top">
+  <button type="button" class="btn-click">
+    <a href="#carouselId">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+  </button>
+ </div>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <script src="./Js/wedding.js"></script>
+</body>
+</html>

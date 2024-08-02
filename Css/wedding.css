@@ -1,0 +1,304 @@
+
+.weddingbody{
+    font-family: cursive;
+}
+img{
+    transition: 0.5s;
+}
+
+/* header */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1050;
+}
+.header{
+
+    background-color: white;
+}
+.header-container{
+    max-width: 80%;
+    
+}
+.header-list{
+    justify-content: center;
+}
+.header-list li{
+    padding: 0 20px;
+}
+
+.header-list .list-group .list-nav .nav-text:hover{
+    color: #fd5d5d;
+}
+.btn-register{
+    background-color: #bbbd98;
+    color: #fd5d5d;
+    font-size: 20px;
+    border: none;
+}
+.btn-register:hover{
+    background-color: #fd5d5d;
+}
+.modal-header .fs-5{
+    color: #fd5d5d;
+}
+#navbarNavDarkDropdown{
+    justify-content: end;
+}
+#navbarNavDarkDropdown button{
+    background-color: #fd5d5d;
+    color: rgba(0, 0, 0, 0.466);
+    border: none;
+}
+/* header end */
+
+/* carousel */
+.text-white{
+    color: #fd5d5d !important;
+}
+.text-white{
+    color: #fd5d5d !important;
+}
+.display-1{
+    color: #fd5d5d !important;
+}
+.fa{
+    color: #fd5d5d !important;
+}
+.d-flex a{
+    background-color: #fd5d5d;
+    border: none;
+}
+/* carousel end */
+
+/* hello */
+.mb-3{
+    color: #fd5d5d !important
+}
+/* hello end */
+
+/* about */
+.about-us{
+    background-color: #bbbd98 !important;
+}
+.tab-class{
+    background-color: white !important;
+}
+.tab-class .nav-item a{
+    background-color:#fd5d5d !important;
+    text-decoration: none;
+}
+.text-start .text-dark{
+    color: black !important;
+}
+/* about end */
+/* Story */
+.story-box{
+    border-bottom: 5px double #bbbd98 !important;
+}
+.col-content{
+    background-color: #bbbd98 !important;
+}
+/* story end */
+/* CARD */
+.card-content{
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.card-group{
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+.card-img{
+    width: 300px;
+    height: 430px;
+}
+
+.card-infor{
+    padding: 15px;
+    border: 1px solid #bbbd98;
+}
+.image img:hover{
+    transform: scale(1.1);
+}
+
+
+.buttoncenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;  
+}
+.btn-img{
+    background-color: #fd5d5d;
+    border: none;
+}
+.btn-img:hover{
+    background-color: #bbbd98;
+}
+
+/* WEDDING TIMELINE */
+.wd-timeline{
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #bbbd98;
+}
+.timeline-head{
+    text-align: center;
+    padding: 80px 0;
+}
+.timeline-li{
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    height: 300px;
+}
+.timeline-li .timeline_icon{
+    color: #fd5d5d !important;
+}
+.timeline-li p{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* carousel */
+.carousel_head{
+    text-align: center;
+    max-width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.carousel_head h1{
+    color: #fd5d5d;
+    font-size: 4rem;
+}
+.carousel_head p{
+    font-size: x-large;
+}
+.carousel_content{
+    border: 1px solid black;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.carousel-inner {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hoặc contain tùy thuộc vào nhu cầu của bạn */
+}
+
+@media (max-width: 1100px) {
+    .carousel-inner {
+        height: auto;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+/* guest's wishes */
+.form_body{
+    max-width: 100%;
+    padding: 100px 0;
+}
+.form_guest{
+    background-color: white;
+    border: 5px double #bbbd98;
+    max-width: 50%;
+    margin: 0 auto;
+    height: 900px;
+}
+.form_head{
+    height: 200px;
+    padding-top: 60px;   
+}
+.form_head h1{
+    color: #fd5d5d;
+    font-size: 4rem;
+    text-align: center;
+}
+.form_content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.btn_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px; 
+} 
+.btn_register{
+    background-color: #fd5d5d;
+    border: none;
+}
+.btn_register:hover{
+    background-color: #bbbd98;
+}
+.error-message{
+    color: red;
+}
+/* toast */
+.toast-container{
+    z-index: 1055;
+}
+#successToast{
+    background-color: #fb7373c8;
+}
+.toast-body{
+    color: white;
+    font-size: 1rem;
+}
+/* footer */
+.wedding_footer{
+    max-width: 100%;
+    margin: 0 auto;
+    height: 520px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../images/wedding\ 9.jpg);
+}
+.footer_content{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.col h1{
+    color: #fd5d5d;
+}
+.col a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+
+.googlemap{
+    padding-top: 50px;
+}
+
+/* Btn-TOP */
+.btn-click{
+    width: 50px;
+    height: 50px;
+    background-color: #fd5d5d;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.btn-click i{
+
+    color: white !important;
+    font-weight: 900;
+}
